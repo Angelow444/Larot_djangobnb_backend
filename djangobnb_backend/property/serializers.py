@@ -12,3 +12,5 @@ class PropertiesListSerializer(serializers.ModelSerializer):
             'price_per_night',
             'image_url',
         )
+
+        
