@@ -22,7 +22,7 @@ class ConversationDetailSerializer(serializers.ModelSerializer):
 
 
 class ConversationMessageSerializer(serializers.ModelSerializer):
-    sent_to = UserDetailSerializer(many=False, read_only=True)
+    sent_to = UserDetailSerializer(many=False, read_only=True) 
     created_by = UserDetailSerializer(many=False, read_only=True)
 
     class Meta:

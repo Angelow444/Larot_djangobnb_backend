@@ -48,10 +48,10 @@ class ChatConsumer(AsyncWebsocketConsumer):
 
         await self.save_message(conversation_id, body, sent_to_id)
     
-    # Sending messages
+    # Sending messages 
     async def chat_message(self, event):
         body = event['body']
-        name = event['name']
+        name = event['name'] 
 
         await self.send(text_data=json.dumps({
             'body': body,
