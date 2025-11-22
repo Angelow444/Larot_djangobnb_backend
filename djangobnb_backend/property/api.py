@@ -137,4 +137,3 @@ def toggle_favorite(request, pk):
         property.favorited.add(request.user)
 
         return JsonResponse({'is_favorite': True})
-        

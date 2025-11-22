@@ -27,7 +27,7 @@ WEBSITE_URL = 'http://localhost:8000'
 CHANNEL_LAYERS = {
     'default': {
         'BACKEND': 'channels.layers.InMemoryChannelLayer'
-    } 
+    }
 }
 
 SIMPLE_JWT = {
@@ -70,7 +70,7 @@ REST_AUTH = {
 # Application definition
 
 INSTALLED_APPS = [
-    'daphne', 
+    'daphne',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -125,8 +125,8 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'djangobnb_backend.wsgi.application' 
-ASGI_APPLICATION = 'djangobnb_backend.asgi.application' 
+WSGI_APPLICATION = 'djangobnb_backend.wsgi.application'
+ASGI_APPLICATION = 'djangobnb_backend.asgi.application'
 
 
 # Database
