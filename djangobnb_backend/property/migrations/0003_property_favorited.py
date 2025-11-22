@@ -1,7 +1,6 @@
-# Generated migration to add favorited field
+# Empty migration - favorited field already in 0001_initial
 
-from django.conf import settings
-from django.db import migrations, models
+from django.db import migrations
 
 
 class Migration(migrations.Migration):
@@ -11,9 +10,5 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        migrations.AddField(
-            model_name='property',
-            name='favorited',
-            field=models.ManyToManyField(blank=True, related_name='favorites', to=settings.AUTH_USER_MODEL),
-        ),
     ]
+
