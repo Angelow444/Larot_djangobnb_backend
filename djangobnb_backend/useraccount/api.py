@@ -28,3 +28,4 @@ def reservations_list(request):
     
     serializer = ReservationsListSerializer(reservations, many=True)
     return JsonResponse(serializer.data, safe=False)
+    
