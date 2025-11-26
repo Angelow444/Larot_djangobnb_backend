@@ -108,7 +108,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'djangobnb_backend.urls'
-
+# nag create sa github
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
